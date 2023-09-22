@@ -1,8 +1,12 @@
-name = input("Enter your father's name: ")
-birthplace = input("Enter your father's birthplace: ")
-birthday = input("Enter your father's birthday: ")
-birthyear = int(input("Enter your father's birthyear: "))
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+address = input("Enter your address: ")
 
-age = 2023 - birthyear
+print(name + " is " + str(age) + " years old and lives in " + address)
 
-print(name + " is " + str(age) + " years old and lives in " + birthplace + ". His birthday is on " + birthday)
+currentyear = int(input("Enter current year: "))
+birthyear = int(input("Enter your birthyear: "))
+
+age = currentyear - birthyear
+
+print("Your age is: " + str(age))
