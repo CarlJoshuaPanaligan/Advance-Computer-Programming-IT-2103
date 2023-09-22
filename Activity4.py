@@ -35,7 +35,5 @@ print("Your name is " + Name)
 
 Apple_price = 20
 Orange_price = 20
-if Apple_price == 20:
-    print("True")
-if Orange_price == 20:
+if Apple_price == Orange_Price:
     print("True")
