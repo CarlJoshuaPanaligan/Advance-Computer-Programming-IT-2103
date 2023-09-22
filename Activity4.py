@@ -18,7 +18,7 @@ a = a * 2
 c = a * b
 b = b + (c * 3)
 c = a * b
-print(c)
+print(b)
 
 number1 = int(input("Enter number1: "))
 number2 = int(input("Enter number2: "))
@@ -35,5 +35,7 @@ print("Your name is " + Name)
 
 Apple_price = 20
 Orange_price = 20
-if Apple_price == Orange_Price:
+if Apple_price == Orange_price:
     print("True")
+else:
+    print("False")
